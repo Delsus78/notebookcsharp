@@ -1,0 +1,16 @@
+﻿<Window x:Class="NoteBook.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NoteBook"
+        mc:Ignorable="d"
+        Title="NoteBook v1.0.0" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="SaisirMatieres" Content="Saisir les matières" HorizontalAlignment="Left" Margin="76,38,0,0" VerticalAlignment="Top" Width="183" Click="GoEditUnits"/>
+        <Button x:Name="RentrerExam" Content="Rentrer un examen" HorizontalAlignment="Left" Margin="532,38,0,0" VerticalAlignment="Top" Width="183" Click="EntrereExamClick"/>
+        <Button x:Name="AfficherMoyennes" Content="Afficher les moyennes" HorizontalAlignment="Left" Margin="306,304,0,0" VerticalAlignment="Top" Width="183" Click="ClickAfficherMoyenne"/>
+        <Image x:Name="Img" HorizontalAlignment="Left" Height="201" Margin="306,80,0,0" VerticalAlignment="Top" Width="183" Source="livres_anciens.png"/>
+
+    </Grid>
+</Window>
